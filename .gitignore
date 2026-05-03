@@ -1,0 +1,24 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local test and generated outputs
+.test-tmp/
+data/
+runs/
+
+# Portable/generated archives
+*.pyz
+*.zip
+
+# Local environment
+.venv/
+venv/
+.env
+
+# Source paper PDFs are referenced by URL in README files
+*.pdf
+

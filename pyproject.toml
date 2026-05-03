@@ -1,0 +1,17 @@
+[project]
+name = "skillreducer"
+version = "0.1.0"
+description = "Reproduction-oriented SkillReducer CLI with synthetic datasets, compression, controls, and reports."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+exact-tokenizer = ["tiktoken"]
+
+[project.scripts]
+skillreducer = "skillreducer.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
